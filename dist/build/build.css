@@ -4,13 +4,15 @@
  * @author ocodia
  */
 
-body {
-    background: url(../background/bg-2-full.jpg);
+section.bg1 #logo1 img {
+    height: 110px;
+    width: 390px;
+    margin-right: 50%;
+    margin-bottom: 15%;
 }
 
 section.bg1 {
-    background: url(../background/win10.png) 45%;
-    background-size: 120% 100%;
+    background: transparent;
 }
 
 code[class*="language-"],
@@ -133,9 +135,3 @@ pre[class*="language-"] {
 
 
 /*Code Setting Area*/
-
-section.bg1 img {
-    height: 264px;
-    width: 422px;
-    margin: -75px 0px 0px 14px;
-}
