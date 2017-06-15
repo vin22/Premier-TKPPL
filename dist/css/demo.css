@@ -153,6 +153,7 @@ section {
     background-color: #000;
     opacity: 0.9;
     color: #fff;
+    border-radius: 4px;
 }
 
 .codrops-demos a.logo {
