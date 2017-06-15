@@ -216,3 +216,11 @@ section.promo div.disc .img1 {
 .button2:hover {
     box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
+
+section.bg2 {
+    background-color: #000;
+}
+
+section.bg2 h1 {
+    color: #fff;
+}
