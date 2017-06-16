@@ -1,0 +1,2 @@
+Wajib mempunyai XAMPP dan PHP versi 5.
+localhost/tkppl/dist/index.html
