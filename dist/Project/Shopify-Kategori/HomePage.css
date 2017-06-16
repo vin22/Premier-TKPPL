@@ -1,0 +1,203 @@
+body {
+    margin: 0px;
+}
+
+@font-face {
+    font-family: "Ubuntu-Regular";
+    font-style: normal;
+    font-weight: 400px;
+    src: url("fonts/Ubuntu-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "OpenSans-ExtraBoldItalic";
+    font-style: normal;
+    font-weight: 400px;
+    src: url("fonts/OpenSans-ExtraBoldItalic.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "OpenSans-Regular";
+    font-style: normal;
+    font-weight: 400px;
+    src: url("fonts/OpenSans-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Lato-Regular";
+    font-style: normal;
+    font-weight: 400px;
+    src: url("../fonts/Lato-Regular.ttf") format("truetype");
+}
+
+.theme-color {
+    color: #96bf48;
+    background-color: #96bf48;
+}
+
+header nav .w3-top {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+header nav .w3-top ul.w3-navbar li .dropdown-color {
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 2px solid #FF0000;
+}
+
+header nav .w3-top ul.w3-navbar li .dropdown-color1 {
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 2px solid #FF0000;
+    height: 60px;
+    width: 505px;
+    color: #fff;
+    padding: 9px 10px;
+}
+
+header nav .w3-top ul.w3-navbar li .dropdown-color1 input[type="text"] {
+    width: 410px;
+    margin: 0px 12px;
+    color: #000;
+    text-indent: 12px;
+}
+
+input[type="text"]#cari {
+    margin: 2px 0px 0px 10px;
+}
+
+header nav .w3-top ul.w3-navbar li {
+    padding: 0px;
+}
+
+header nav .w3-top ul.w3-navbar li a {
+    color: #fff;
+}
+
+header nav .w3-top ul.w3-navbar li a.homecolor {
+    background-color: #FF0000;
+    font-family: OpenSans-ExtraBoldItalic;
+}
+
+header nav .w3-top ul.w3-navbar li.dropdown-li:hover,
+header nav .w3-top ul.w3-navbar li.dropdown-li a:hover {
+    background-color: RGBA(0, 43, 255, 0.7);
+}
+
+header nav .w3-top ul.w3-navbar li.login {
+    height: 41px;
+    color: #fff;
+    padding: 8px 14px;
+    cursor: pointer;
+}
+
+header nav .w3-top ul.w3-navbar .w3-modal .w3-card-8 form.w3-container .w3-section input[type="submit"].login-1 {
+    border-radius: 6px;
+    width: 568px;
+    font-size: 14px;
+    color: #fff;
+    font-weight: bold;
+}
+
+header nav .w3-top ul.w3-navbar .w3-modal .w3-card-8 .w3-container a.cancel {
+    border-radius: 6px;
+    color: #fff;
+    background-color: #ff0000;
+}
+
+header nav .w3-top ul.w3-navbar .w3-modal .w3-card-8 .w3-container a.cancel:hover {
+    background-color: #96bf48;
+}
+
+header nav .w3-top ul.w3-navbar li .center-logo {
+    margin-left: 175px;
+}
+
+header nav .w3-top ul.w3-navbar li .center-logo img {
+    width: 38px
+}
+
+.shopify-logo {
+    background-color: rgba(35, 35, 35, 0.7);
+    border-radius: 10px;
+    padding: 36px;
+}
+
+.shopify-logo2 {
+    text-align: center;
+}
+
+.shopify-logo img {
+    top: 30px;
+    height: 80px;
+    width: 340px;
+}
+
+#about ul.slideshow li img {
+    height: 350px;
+}
+
+.search {
+    float: right;
+}
+
+#about h4 {
+    color: #96bf48;
+    width: 960px;
+    border-bottom: 2px solid gray;
+}
+
+.parallax {
+    height: 465px;
+    color: dodgerblue;
+}
+
+.w3-content .row h4 {
+    color: #96bf48;
+    border-bottom: 2px solid gray;
+    font-family: Ubuntu-Regular;
+}
+
+.w3-content .row h6 {
+    font-size: 14px;
+}
+.w3-content .row .thumbnail .caption {
+    width: 600px;
+    height:150px;
+}
+.w3-content .row .thumbnail .caption h6 {
+    height:50px;
+}
+.w3-content .row .thumbnail .caption p {
+    font-weight: bold;
+    color: firebrick;
+}
+
+.w3-content .row .thumbnail .caption p a {
+    width: 100%;
+    color: gray;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.scrollToTop {
+    width: 124px;
+    height: 130px;
+    padding: 10px;
+    text-align: center;
+    background: whiteSmoke;
+    font-weight: bold;
+    color: #444;
+    text-decoration: none;
+    position: fixed;
+    top: 230px;
+    right: 40px;
+    display: none;
+    background: url('shopify_logo/1321797631_Arrow-Up.png') no-repeat 0px 20px;
+}
+
+.scrollToTop:hover {
+    text-decoration: none;
+}
+
+footer .right {
+    float: right;
+}

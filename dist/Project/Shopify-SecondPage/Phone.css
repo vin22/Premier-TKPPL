@@ -1,0 +1,172 @@
+body {
+    margin: 0px;
+    height: 565px;
+}
+
+@font-face {
+    font-family: "Ubuntu-Regular";
+    font-style: normal;
+    font-weight: 400px;
+    src: url("../fonts/Ubuntu-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "OpenSans-ExtraBoldItalic";
+    font-style: normal;
+    font-weight: 400px;
+    src: url("../fonts/OpenSans-ExtraBoldItalic.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "OpenSans-Regular";
+    font-style: normal;
+    font-weight: 400px;
+    src: url("../fonts/OpenSans-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Lato-Regular";
+    font-style: normal;
+    font-weight: 400px;
+    src: url("../fonts/Lato-Regular.ttf") format("truetype");
+}
+
+.theme-color {
+    color: #96bf48;
+    background-color: #96bf48;
+}
+
+header nav .w3-top {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+header nav .w3-top ul.w3-navbar li .dropdown-color {
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 2px solid #FF0000;
+}
+
+header nav .w3-top ul.w3-navbar li {
+    padding: 0px;
+}
+
+header nav .w3-top ul.w3-navbar li a {
+    color: #fff;
+}
+
+header nav .w3-top ul.w3-navbar li a.homecolor {
+    font-family: OpenSans-ExtraBoldItalic;
+}
+
+header nav .w3-top ul.w3-navbar li.dropdown-li:hover,
+header nav .w3-top ul.w3-navbar li.dropdown-li a:hover {
+    background-color: RGBA(0, 43, 255, 0.7);
+}
+
+header nav .w3-top ul.w3-navbar li.login {
+    height: 41px;
+    color: #fff;
+    padding: 8px 14px;
+    cursor: pointer;
+}
+
+header nav .w3-top ul.w3-navbar .w3-modal .w3-card-8 form.w3-container .w3-section input[type="submit"].login-1 {
+    border-radius: 6px;
+    width: 568px;
+    font-size: 14px;
+    color: #fff;
+    font-weight: bold;
+}
+
+header nav .w3-top ul.w3-navbar li .dropdown-color1 {
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 2px solid #FF0000;
+    height: 60px;
+    width: 505px;
+    color: #fff;
+    padding: 9px 10px;
+}
+
+header nav .w3-top ul.w3-navbar li .dropdown-color1 input[type="text"]{
+    width: 410px;
+    margin: 0px 12px;
+    color: #000;
+    text-indent: 12px;
+}
+
+header nav .w3-top ul.w3-navbar .w3-modal .w3-card-8 .w3-container a.cancel {
+    border-radius: 6px;
+    color: #fff;
+    background-color: #ff0000;
+}
+
+header nav .w3-top ul.w3-navbar .w3-modal .w3-card-8 .w3-container a.cancel:hover {
+    background-color: #96bf48;
+}
+
+header nav .w3-top ul.w3-navbar li .center-logo{
+    margin-left:175px;
+}
+
+header nav .w3-top ul.w3-navbar li .center-logo img{
+    width: 38px
+}
+
+main .card {
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 10px;
+    width: 960px;
+    height: 540px;
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
+}
+
+main .card .left-side {
+    float: left;
+    width: 40%;
+    height: 450px;
+}
+
+main .card .right-side {
+    float: right;
+    width: 60%;
+    height: 450px;
+}
+
+main .card .right-side p.font1{
+    font-size:20px;
+    font-weight:bold;
+    color:#96bf48;
+}
+
+main .card .right-side h2 {
+    color: firebrick;
+}
+
+main .card .right-side p {
+    color: gray;
+}
+
+main .card .right-side .count input[type="number"] {
+    width: 70px;
+    outline: none;
+    margin: 0px 6px;
+}
+
+main .card .right-side .count{
+    margin-top: 30px;
+    width: 160px;
+}
+
+main .card .right-side a {
+    border-radius: 6px;
+    background-color: #96bf48;
+    width: 40%;
+    font-weight: bold;
+    font-family: OpenSans-Regular;
+    margin-top: 30px;
+}
+
+footer .right {
+    float: right;
+}

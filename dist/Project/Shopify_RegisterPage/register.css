@@ -1,0 +1,143 @@
+body {
+    margin: 0px;
+    font-family: 'Helvetica', arial, sans-serif;
+    height: 975px;
+}
+
+header .head {
+    height: 190px;
+    width: 100%;
+}
+
+header .head .head-1 {
+    height: 85px;
+    width: 100%;
+    background-color: #000;
+    border-bottom: 2px solid lightgray;
+}
+
+header .head .head-1 .logo {
+    padding: 8px;
+    text-align: center;
+}
+
+header .head .head-1 .logo img {
+    height: 68px;
+    width: 260px;
+}
+
+header .head .head-2 {
+    text-align: center;
+    margin-top: 40px;
+}
+
+main {
+    height: 800px;
+}
+
+main .left-side,
+main .right-side {
+    margin-top: 42px;
+}
+
+main .left-side {
+    float: left;
+    height: 400px;
+    width: 50%;
+}
+
+main .left-side .left-side2 {
+    height: 145px;
+    width: 380px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+main .left-side .left-side2 a.w3-btn {
+    display: block;
+    height: 36px;
+    width: 380px;
+    font-weight: bold;
+    font-size: 17px;
+    border-radius: 6px;
+    margin-bottom: 18px;
+}
+
+main .left-side .left-side2 a img {
+    margin-right: 12px;
+}
+
+main .right-side {
+    float: right;
+    height: 500px;
+    width: 50%;
+    padding: 0px 86px;
+    border-left: 2px dotted #96bf48;
+}
+
+main .right-side .right-side2 input[type="text"],
+.right-side2 input[type="email"],
+.right-side2 input[type="password"] {
+    height: 36px;
+    width: 400px;
+    font-size: 20px;
+    text-indent: 16px;
+    margin: 10px;
+}
+
+main .right-side .right-side2 input[type="text"]:valid,
+main .right-side .right-side2 input[type="password"]:valid {
+    border: 2px solid lime;
+}
+
+main .right-side .right-side2 input[type="email"] {
+    outline: none;
+}
+
+main .right-side .right-side2 input[type="email"]:valid {
+    border: 2px solid lime;
+    outline: none;
+}
+
+main .right-side .right-side2 form .gender {
+    width: 260px;
+    margin: 10px 10px;
+}
+
+main .right-side .right-side2 form .gender input[type="radio"] {
+    margin-right: 4px;
+}
+
+main .right-side .right-side2 form .gender .p1 {
+    margin-right: 20px;
+}
+
+main .right-side .right-side2 form input[type="date"] {
+    margin-left: 10px;
+}
+main .right-side .right-side2 form p.birth {
+    width: 100px;
+    color: gray;
+    margin: 20px 0px 5px 10px;
+}
+
+main .right-side .right-side2 form .calendar {
+    margin-left: 10px;
+}
+
+main .right-side .right-side2 form p .note {
+    font-size: 14px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+main .right-side .right-side2 form input[type="submit"] {
+    margin: 20px 0px 0px 10px;
+    width: 300px;
+}
+
+footer .right {
+    float: right;
+}
+
+
