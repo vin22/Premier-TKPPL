@@ -1,7 +1,7 @@
 <?php
-include('../Shopify_RegisterPage/login.php'); // Memasuk-kan skrip Login 
+include('../Shopify_RegisterPage/loginorder.php'); // Memasuk-kan skrip Login 
 if(isset($_SESSION['login_user'])){
-    header("location: ../profile.php");
+    header("location: ../Shopify-SecondPage/OrderUser.php");
 }
 else if(isset($_SESSION['login_admin'])){
     header("location: ../profileadmin.php");
@@ -127,6 +127,7 @@ $kolom_db=mysql_fetch_assoc($query);
                                     <label><b>Email</b></label>
                                     <input class="w3-input w3-border w3-margin-bottom" type="email" autocomplete="off" placeholder="Email" name="email" required>
                                     <label><b>Password</b></label>
+                                    <input type="hidden" name="id" value="<?php echo $produkid;?>">
                                     <input class="w3-input w3-border" type="password" placeholder="Password" name="password" required>
                                     <input type="submit" name="submit" class="w3-btn w3-section blue login-1" value="Login">
                                     <input type="checkbox" name="check" id="check">
@@ -234,8 +235,9 @@ $kolom_db=mysql_fetch_assoc($query);
                 <h4 class="w3-center"><?php echo $kolom_db['namaproduk'];?></h4>
                 <p class="w3-border-bottom">Spesifikasi :<br><?php echo $kolom_db['spesifikasi'];?></p>
                 <p>Deskripsi : <br><?php echo $kolom_db['deskripsi'];?></p>
-                <form action="../Shopify_RegisterPage/masuk.php" method="post">
+                <form action="../Shopify_RegisterPage/masukorder.php" method="post">
                     <input type="number" name="banyak" min="1" max="<?php echo $kolom_db['stok'];?>" style="width:150px;" placeholder="Banyak Produk" required>
+                    <input type="hidden" name="id" value="<?php echo $produkid;?>">
                     <?php
                     if($kolom_db['stok']==0)
                     {?>

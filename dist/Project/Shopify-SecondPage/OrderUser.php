@@ -7,7 +7,7 @@ $connection = mysql_connect("localhost", "root", "");
 // Seleksi Database
 $database="database market";
 $db = mysql_select_db($database);
-$produkid=$_POST['id'];
+$produkid=$_SESSION['id_order'];
 $query = mysql_query("select * from produk where produkID='$produkid'", $connection);
 $kolom_db=mysql_fetch_assoc($query);
 $email=$_SESSION['login_user'];
